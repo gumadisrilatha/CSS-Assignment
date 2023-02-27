@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: #ff0000;
+}
+h3 {
+  color: rgb(255, 87, 51);
+}
+h4 {
+  color: hsl(276, 80%, 60%);
+}
+.header {
+  color: black;
+  background-color: aqua;
+}
