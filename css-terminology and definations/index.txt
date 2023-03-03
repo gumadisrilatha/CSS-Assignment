@@ -1,0 +1,78 @@
+What are the main differences between external, internal, and inline CSS?
+External CSS - It is stored in a separate file and can be linked to multiple HTML documents, allowing for global styling across an entire website.
+Internal CSS - It is included within the head section of an HTML.
+Inline CSS- An inline CSS is used to apply a unique style to a single HTML element
+
+What is the syntax for class and ID selectors?
+ (".") for class and ("#") for id.
+
+How would you apply a single rule to two different selectors?
+By listing the selectors with a comma between them.
+
+Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+#title, .class {}.
+
+What does the descendant combinator do?
+The descendant combinator matches a child, grandchild, and so on.
+
+Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
+The class selector.
+
+From inside to outside, what is the order of box-model properties?
+Padding, Border, Margin.
+
+What does the box-sizing CSS property do?
+It allows us to include the padding and border in an element's total width and height.
+
+What is the difference between the standard and alternative box model?
+In the standard box model, the size of the border is added to the width and height of the content box, 
+while in the alternative box model the size of the border makes the content box smaller as it takes up some of that available width and height of the element box.
+
+Would you use margin or padding to create more space between 2 elements?
+Margin.
+
+Would you use margin or padding to create more space between the contents of an element and its border?
+Padding.
+
+Would you use margin or padding if you wanted two elements to overlap each other?
+Margins, because padding can only pe positive.
+
+What is the difference between a block element and an inline element?
+The block elements occupies the entire horizontal space of its parent element and vertical space equal to the height of its contents, while the inline elements will only occupy the space bounded by the tags defining the element.
+
+What is the difference between an inline element and an inline-block element?
+On the inline element you can't set height and width values, while on the inline-block element you can.
+
+Is an h1 block or inline?
+Block.
+
+Is button block or inline?
+Inline.
+
+Is div block or inline?
+Block.
+
+Is span block or inline?
+Inline.
+
+What’s the difference between a flex container and a flex item?
+The flex container is the parent, the flex item is the child. The element that has the display flex property is the parent.
+
+How do you create a flex item?
+I would set the display flex property to its parent.
+
+What are the 3 values defined in the shorthand flex property?
+Flex-grow, Flex-shrink and Flex-basis.
+
+How do you make flex items arrange themselves vertically instead of horizontally?
+We set the property flex-direction: row.
+
+What is the difference between justify-content and align-items?
+Justify-content works across the main axis while align-items works on the cross-axis.
+
+How do you use flexbox to completely center a div inside a flex container?
+We use align-items: center and justify-content: center.
+
+What’s the difference between justify-content: space-between and justify-content: space-around?
+justify-content: space-between adds equal space just between the elements, 
+justify-content: space-around adds equal space also before the first element and after the last element.
