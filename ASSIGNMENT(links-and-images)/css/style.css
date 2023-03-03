@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aquamarine;
+}
+img {
+  margin: 0 auto;
+  display: block;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+a {
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.first-link {
+  padding-left: 650px;
+}
